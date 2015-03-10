@@ -34,3 +34,39 @@
 [submodule "awesome-ios/by-vsouza"]
 	path = awesome-ios/by-vsouza
 	url = https://github.com/vsouza/awesome-ios.git
+[submodule "awesome-android/by-JStumpp"]
+	path = awesome-android/by-JStumpp
+	url = https://github.com/JStumpp/awesome-android
+[submodule "awesome-android/by-ashishb"]
+	path = awesome-android/by-ashishb
+	url = https://github.com/ashishb/android-security-awesome.git
+[submodule "awesome-ios/by-joeljfischer"]
+	path = awesome-ios/by-joeljfischer
+	url = https://github.com/joeljfischer/awesome-apple.git
+[submodule "awesome-html5/by-therebelrobot"]
+	path = awesome-html5/by-therebelrobot
+	url = https://github.com/therebelrobot/awesome-bootstrap.git
+[submodule "awesome-devops/by-ciandcd"]
+	path = awesome-devops/by-ciandcd
+	url = https://github.com/ciandcd/awesome-ciandcd.git
+[submodule "awesome-cordova/by-busterc"]
+	path = awesome-cordova/by-busterc
+	url = https://github.com/busterc/awesome-cordova.git
+[submodule "awesome-db/by-numetriclabz"]
+	path = awesome-db/by-numetriclabz
+	url = https://github.com/numetriclabz/awesome-db.git
+[submodule "awesome-docker/by-veggiemonk"]
+	path = awesome-docker/by-veggiemonk
+	url = https://github.com/veggiemonk/awesome-docker.git
+[submodule "awesome-dotfiles/by-webpro"]
+	path = awesome-dotfiles/by-webpro
+	url = https://github.com/webpro/awesome-dotfiles.git
+[submodule "awesome-html5/by-diegocard"]
+	path = awesome-html5/by-diegocard
+	url = https://github.com/diegocard/awesome-html5.git
+[submodule "awesome-styleguides/by-RichardLitt"]
+	path = awesome-styleguides/by-RichardLitt
+	url = https://github.com/RichardLitt/awesome-styleguides.git
+[submodule "awesome-tooling/by-cjbarber"]
+	path = awesome-tooling/by-cjbarber
+	url = https://github.com/cjbarber/ToolsOfTheTrade.git
