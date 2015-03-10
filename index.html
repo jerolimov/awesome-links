@@ -12,6 +12,7 @@
 
 		<script>
 			var READMEs = [
+				'awesome-algorithms/by-tayllan/README.md',
 				'awesome-android/by-ashishb/README.md',
 				'awesome-android/by-JStumpp/readme.md',
 				'awesome-cordova/by-busterc/README.md',
@@ -38,13 +39,12 @@
 				'awesome-tooling/by-cjbarber/README.md'
 			];
 
-			var ajaxCalls = [];
-			var ajaxResponses = [];
+			var responses = [];
 			for (var i = 0; i < READMEs.length; i++) {
-				ajaxCalls.push($.ajax({
+				$.ajax({
 					url: READMEs[i],
-					success: function(data) { ajaxResponses.push(data.match(/[^\r\n]+/g)); }
-				}));
+					success: function(data) { responses.push(data.match(/[^\r\n]+/g)); }
+				});
 			}
 
 			$(function() {
@@ -56,8 +56,8 @@
 					var newContent = '';
 					console.log('filter:', filter);
 
-					for (var i = 0; i < ajaxResponses.length; i++) {
-						var lines = ajaxResponses[i];
+					for (var i = 0; i < responses.length; i++) {
+						var lines = responses[i];
 						for (var j = 0; j < lines.length; j++) {
 							var line = lines[j];
 							if (line.match(filter)) {
