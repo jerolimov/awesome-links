@@ -9,6 +9,7 @@ So you can clone this repository and grep all these readme locally.
 
 	git clone --resurive git@github.com:bayandin/awesome-awesomeness.git
 
-Which projects are included, yet? Checkout `git submodule status` or `cat .gitmodules`
+Which projects are included, yet? Checkout `git submodule status` or the
+[.gitmodules](https://github.com/jerolimov/awesome-links/blob/gh-pages/.gitmodules) files.
 
 Would you add other repositories? Maybe, please open a PR :)

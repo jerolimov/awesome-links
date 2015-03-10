@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>awesome-links</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+		<script>
+			var READMEs = [
+				'awesome-go/by-avelino/README.md',
+				'awesome-groovy/by-kdabir/README.md',
+				'awesome-java/by-akullpp/README.md',
+				'awesome-javascript/by-sorrycc/README.md',
+				'awesome-nodejs/by-sindresorhus/readme.md',
+				'awesome-nodejs/by-vndmtrx/README.md',
+				'awesome-php/by-ziadoz/README.md',
+				'awesome-rust/by-kud1ing/README.md',
+				'awesome-shell/by-alebcay/README.md',
+				'awesome-swift/by-matteocrippa/README.md',
+				'awesome-swift/by-Wolg/README.md'
+			];
+
+			var ajaxCalls = [];
+			var ajaxResponses = [];
+			for (var i = 0; i < READMEs.length; i++) {
+				ajaxCalls.push($.ajax({
+					url: READMEs[i],
+					success: function(data) { ajaxResponses.push(data.match(/[^\r\n]+/g)); }
+				}));
+			}
+
+			$(function() {
+				var search = $('#search');
+				var content = $('#content');
+
+				var updateContent = function() {
+					var filter = new RegExp(search.val(), 'i');
+					var newContent = '';
+					console.log('filter:', filter);
+
+					for (var i = 0; i < ajaxResponses.length; i++) {
+						var lines = ajaxResponses[i];
+						for (var j = 0; j < lines.length; j++) {
+							var line = lines[j];
+							if (line.match(filter)) {
+								newContent += line + '\r\n';
+							}
+						}
+					}
+
+					content.html(newContent);
+				};
+
+				search.keyup(updateContent);
+			});
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="form-inline">
+				<input id="search" type="search" placeholder="Search" autofocus="autofocus" class="form-control">
+			</div>
+			<pre id="content">Please search above!</pre>
+		</div>
+	</body>
+</html>
