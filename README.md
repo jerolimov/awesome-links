@@ -9,9 +9,9 @@ Instead of referencing all of them with good old links, I added them here as sub
 git clone --recursive https://github.com/jerolimov/awesome-links.git
 cd awesome-links
 
-grep -i alternative -r .
+grep -i "alternative" -r .
 # or
-grep -i auto.*layout -r awesome-ios awesome-swift
+grep -i "auto.*layout" -r awesome-ios awesome-swift
 ```
 
 &nbsp;
