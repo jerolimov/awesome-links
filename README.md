@@ -10,7 +10,7 @@ git clone --recursive git@github.com:jerolimov/awesome-links.git && cd awesome-l
 
 grep -i alternative -r .
 # or
-grep -i log -r awesome-swift
+grep -i auto.*layout -r awesome-ios awesome-swift
 ```
 
 &nbsp;
