@@ -1,0 +1,33 @@
+[submodule "awesome-swift/by-matteocrippa"]
+	path = awesome-swift/by-matteocrippa
+	url = git@github.com:matteocrippa/awesome-swift.git
+[submodule "awesome-go/by-avelino"]
+	path = awesome-go/by-avelino
+	url = git@github.com:avelino/awesome-go.git
+[submodule "awesome-groovy/by-kdabir"]
+	path = awesome-groovy/by-kdabir
+	url = git@github.com:kdabir/awesome-groovy.git
+[submodule "awesome-java/by-akullpp"]
+	path = awesome-java/by-akullpp
+	url = git@github.com:akullpp/awesome-java.git
+[submodule "awesome-javascript/by-sorrycc"]
+	path = awesome-javascript/by-sorrycc
+	url = git@github.com:sorrycc/awesome-javascript.git
+[submodule "awesome-nodejs/by-sindresorhus"]
+	path = awesome-nodejs/by-sindresorhus
+	url = git@github.com:sindresorhus/awesome-nodejs.git
+[submodule "awesome-nodejs/by-vndmtrx"]
+	path = awesome-nodejs/by-vndmtrx
+	url = git@github.com:vndmtrx/awesome-nodejs.git
+[submodule "awesome-php/by-ziadoz"]
+	path = awesome-php/by-ziadoz
+	url = git@github.com:ziadoz/awesome-php.git
+[submodule "awesome-rust/by-kud1ing"]
+	path = awesome-rust/by-kud1ing
+	url = git@github.com:kud1ing/awesome-rust.git
+[submodule "awesome-shell/by-alebcay"]
+	path = awesome-shell/by-alebcay
+	url = git@github.com:alebcay/awesome-shell.git
+[submodule "awesome-swift/by-Wolg"]
+	path = awesome-swift/by-Wolg
+	url = git@github.com:Wolg/awesome-swift.git
