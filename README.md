@@ -6,7 +6,8 @@ who collect a big list in his [awesome-awesomeness](https://github.com/bayandin/
 Instead of referencing all of them with good old links, I added them here as submodules. So you can clone this repository and then search in all of these READMEs. Local, offline and with your prefered tools:
 
 ```bash
-git clone --recursive https://github.com/jerolimov/awesome-links.git && cd awesome-links
+git clone --recursive https://github.com/jerolimov/awesome-links.git
+cd awesome-links
 
 grep -i alternative -r .
 # or
