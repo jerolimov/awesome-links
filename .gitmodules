@@ -31,3 +31,6 @@
 [submodule "awesome-swift/by-Wolg"]
 	path = awesome-swift/by-Wolg
 	url = https://github.com/Wolg/awesome-swift.git
+[submodule "awesome-ios/by-vsouza"]
+	path = awesome-ios/by-vsouza
+	url = https://github.com/vsouza/awesome-ios.git
