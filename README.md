@@ -7,7 +7,7 @@ Instead of referencing all of them with a link, I added them as submodules here.
 
 So you can clone this repository and grep all these readme locally.
 
-	git clone --resurive git@github.com:bayandin/awesome-awesomeness.git
+	git clone --recursive git@github.com:jerolimov/awesome-links.git
 
 Which projects are included, yet? Checkout `git submodule status` or the
 [.gitmodules](https://github.com/jerolimov/awesome-links/blob/gh-pages/.gitmodules) files.
