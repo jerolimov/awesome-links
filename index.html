@@ -7,7 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="https://npmcdn.com/showdown@1.3.0"></script>
+		<script src="https://npmcdn.com/jquery@2.1.4"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 		<script>
@@ -52,6 +53,7 @@
 			$(function() {
 				var search = $('#search');
 				var content = $('#content');
+				var converter = new showdown.Converter();
 
 				var updateContent = function() {
 					var filter = new RegExp(search.val(), 'i');
@@ -68,7 +70,7 @@
 						}
 					}
 
-					content.html(newContent);
+					content.html(converter.makeHtml(newContent));
 				};
 
 				search.keyup(updateContent);
