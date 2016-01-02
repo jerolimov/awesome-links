@@ -73,3 +73,9 @@
 [submodule "awesome-algorithms/by-tayllan"]
 	path = awesome-algorithms/by-tayllan
 	url = https://github.com/tayllan/awesome-algorithms.git
+[submodule "awesome-react/by-enaqx"]
+	path = awesome-react/by-enaqx
+	url = https://github.com/enaqx/awesome-react.git
+[submodule "awesome-react-native/by-jondot"]
+	path = awesome-react-native/by-jondot
+	url = https://github.com/jondot/awesome-react-native.git
