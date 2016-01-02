@@ -1,25 +1,27 @@
 # Awesome links
 
-Inspired by all these great `awesome-*` projects here on GitHub. Thanks to [@bayandin](https://github.com/bayandin)
-who collect a big list in his [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) project.
+Instead of referencing all these awesome-* projects here on GitHub with pure
+links, this project includes many of them as git submodule.
+So you can clone this repository and grep all of them together.
 
-Instead of referencing all of them with good old links, I added them here as submodules. So you can clone this repository and then search in all of these READMEs. Local, offline and with your prefered tools:
+    git clone --recursive https://github.com/jerolimov/awesome-links.git
 
-```bash
-git clone --recursive git@github.com:jerolimov/awesome-links.git && cd awesome-links
+Grep them locally, offline, and with your preferred tools:
 
-grep -i alternative -r .
-# or
-grep -i auto.*layout -r awesome-ios awesome-swift
-```
+    grep -i alternative -r .
 
-&nbsp;
+or
 
----
+    grep -i auto.*layout -r awesome-ios awesome-swift
 
-*Common questions:*
+### Which projects are included, yet?
 
-Which projects are included, yet? Checkout `git submodule status` or the
-[.gitmodules](https://github.com/jerolimov/awesome-links/blob/gh-pages/.gitmodules) files.
+Checkout the [.gitmodules](https://github.com/jerolimov/awesome-links/blob/gh-pages/.gitmodules) file.
 
-Would you add other repositories? Maybe, please open a PR :)
+You miss a repository? Please open an issue or PR.
+
+### Credits
+
+It was inspired by the great awesome-* meta-project
+[awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) by
+[@bayandin](https://github.com/bayandin).
